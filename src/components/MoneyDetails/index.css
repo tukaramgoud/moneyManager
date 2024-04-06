@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.moneyDetails-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8vh;
+}
+.money-container-green {
+  height: 15vh;
+  padding: 20px;
+  border: 2px solid #84cc16;
+  border-radius: 20px;
+  background-color: #d2eea9;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.money-container-blue {
+  height: 15vh;
+  padding: 20px;
+  border: 2px solid #06b6d4;
+  border-radius: 20px;
+  background-color: #b2e4ec;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.money-container-violet {
+  height: 15vh;
+  padding: 20px;
+  border: 2px solid #7c3aed;
+  border-radius: 20px;
+  background-color: #c6a8f8;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-sizing {
+  height: 70px;
+  margin-right: 30px;
+}

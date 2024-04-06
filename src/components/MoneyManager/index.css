@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.main-container {
+  height: 100vh;
+  padding: 5%;
+  padding-top: 2%;
+}
+.name-container {
+  background-image: url(https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png);
+  height: 20vh;
+  background-size: cover;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.transaction-history-container {
+  display: flex;
+  justify-content: space-between;
+}
+.transaction-container {
+  width: 30%;
+  background-color: white;
+  min-height: 40vh;
+  border: 2px solid #7e858e;
+  border-radius: 20px;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.title {
+  display: block;
+  font-family: Roboto;
+  font-size: 20px;
+  color: #9eaec2;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.input-title {
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+  outline: none;
+  color: #7e858e;
+  border: 1px solid #334155;
+  margin-bottom: 20px;
+  padding-left: 20px;
+}
+.history-container {
+  width: 60%;
+  background-color: white;
+  min-height: 40vh;
+  border: 2px solid #7e858e;
+  border-radius: 20px;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+.table {
+  width: 100%;
+  text-align: left;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
