@@ -109,11 +109,7 @@ class MoneyManager extends Component {
               onChange={this.typeChanged}
             >
               {transactionTypeOptions.map(eachOne => (
-                <option
-                  id={eachOne.optionId}
-                  key={eachOne.optionId}
-                  value={eachOne.optionId}
-                >
+                <option id={eachOne.optionId} key={eachOne.optionId}>
                   {eachOne.displayText}
                 </option>
               ))}

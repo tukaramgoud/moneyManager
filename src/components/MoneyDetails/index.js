@@ -17,7 +17,7 @@ const MoneyDetails = props => {
       expenditure += parseInt(listItem[i].amount)
     }
   }
-
+  console.log(sumOfAmount, expenditure, income)
   return (
     <div className="moneyDetails-container">
       <div className="money-container-green">
@@ -62,11 +62,7 @@ const MoneyDetails = props => {
         />
         <div>
           <p className="welcome-text">Your Expenses</p>
-          <h1
-            className="richard-name"
-            data-testid="expensesAmount"
-            value={expenditure}
-          >
+          <h1 className="richard-name" data-testid="expensesAmount">
             Rs {expenditure}
           </h1>
         </div>
