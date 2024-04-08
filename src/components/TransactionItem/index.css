@@ -5,6 +5,7 @@
 }
 .delete-image {
   height: 30px;
+  cursor: pointer;
 }
 .each-heading-new {
   width: 25%;
