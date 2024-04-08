@@ -30,12 +30,12 @@
   font-size: 20px;
   color: #9eaec2;
   font-weight: 600;
-  margin-bottom: 2px;
+  margin-bottom: 6px;
 }
 .input-title {
   width: 100%;
-  padding: 5px;
-  border-radius: 10px;
+  padding: 10px;
+  border-radius: 3px;
   outline: none;
   color: #7e858e;
   border: 1px solid #334155;
@@ -51,14 +51,37 @@
   padding-left: 4%;
   padding-right: 4%;
 }
-.table {
-  width: 100%;
-  text-align: left;
+.span-element {
+  color: #0b69ff;
+  font-family: Roboto;
+  font-weight: 600;
 }
-
-table,
-th,
-td {
-  border: 1px solid black;
-  border-collapse: collapse;
+.unOrdered-list {
+  list-style: none;
+  padding: 0px;
+}
+.list-headings {
+  display: flex;
+  border: 1px solid #cbd5e1;
+  padding-left: 20px;
+}
+.each-heading {
+  width: 25%;
+  font-family: Roboto;
+  font-size: 20px;
+  color: #7e858e;
+}
+.transaction-headign {
+  color: #475569;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 600;
+}
+.welcome-text {
+  font-family: Roboto;
+  color: #334155;
+}
+.richard-name {
+  font-family: Roboto;
+  color: #334155;
 }

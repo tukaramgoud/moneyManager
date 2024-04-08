@@ -1,1 +1,14 @@
 /* Write your CSS here */
+.delete-button {
+  background-color: transparent;
+  border: none;
+}
+.delete-image {
+  height: 30px;
+}
+.each-heading-new {
+  width: 25%;
+  color: #d7dfe9;
+  font-family: Roboto;
+  font-size: 20px;
+}

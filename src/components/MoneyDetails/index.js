@@ -12,8 +12,8 @@ const MoneyDetails = props => {
           className="image-sizing"
         />
         <div>
-          <p>Your Balance</p>
-          <h1>Rs 4000</h1>
+          <p className="welcome-text">Your Balance</p>
+          <h1 className="richard-name">Rs 4000</h1>
         </div>
       </div>
       <div className="money-container-blue">
@@ -23,8 +23,8 @@ const MoneyDetails = props => {
           className="image-sizing"
         />
         <div>
-          <p>Your Balance</p>
-          <h1>Rs 4000</h1>
+          <p className="welcome-text">Your Balance</p>
+          <h1 className="richard-name">Rs 4000</h1>
         </div>
       </div>
       <div className="money-container-violet">
@@ -34,8 +34,8 @@ const MoneyDetails = props => {
           className="image-sizing"
         />
         <div>
-          <p>Your Balance</p>
-          <h1>Rs 4000</h1>
+          <p className="welcome-text">Your Balance</p>
+          <h1 className="richard-name">Rs 4000</h1>
         </div>
       </div>
     </div>
